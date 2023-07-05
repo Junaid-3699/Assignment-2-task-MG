@@ -1,3 +1,9 @@
+//Deployment Links - https://taskmanager-junaidmehroz3.b4a.run/
+//for users - https://taskmanager-junaidmehroz3.b4a.run/users (get)
+//          - https://taskmanager-junaidmehroz3.b4a.run/user-data (post)
+//          - https://taskmanager-junaidmehroz3.b4a.run/users/:id (put and delete)
+// Same for Tasks replace 'users' with 'tasks'
+
 const mongoose = require('mongoose');
 const express = require('express');
 require('./db/mongoConn')
